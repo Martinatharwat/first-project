@@ -1,0 +1,196 @@
+
+.home
+{
+    background-image: url(../images/intro-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.icon i
+{
+text-align: center;
+width: 250px;
+height: 250px;
+font-size: 35px;
+border-radius: 80%;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: all;
+}
+.icon:hover{
+    background-color: rgb(41, 41, 179);
+    border-radius: 50%;
+}
+
+.back
+{
+    background-image: url(../images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.work
+{
+    background-image: url(../images/counters-bg.jpg);
+    background-size: cover;
+    background-position: center center;  
+    position:relative; 
+   box-sizing: border-box;
+ 
+}
+.all
+{
+    text-align: center;
+    font-size: 30px;
+}
+.icons
+{   display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position:absolute;
+    top:0;
+    left:0px;
+    background-color:rgba(red, green, rgb(9, 9, 252), alpha);
+    width: 100%;
+    height: 100%;
+}
+.home-title
+{
+    text-align: center;
+    font-size: 30px;
+}
+.home-title::after
+{
+    content:''; 
+    animation-name: typing;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+    animation-direction:normal;
+}
+@keyframes typing
+{
+    0%{content:'W|';}
+    1%{content:'We|';}
+    2%{content:'Web |';}
+    3%{content:'Web D|';}
+    4%{content:'Web De|';}
+    5%{content:'Web Dev|';}
+    6%{content:'Web Deve|';}
+    7%{content:'Web Devel|';}
+    8%{content:'Web Develo|';}
+    8%{content:'Web Develop|';}
+    9%{content:'Web Develope|';}
+    10%{content:'Web Developer|';}
+    11%{content:'Web Develope|';}
+    11%{content:'Web Develop|';}
+    12%{content:'Web Develo|';}
+    13%{content:'Web Devel|';}
+    14%{content:'Web Deve|';}
+    15%{content:'Web Dev|';}
+    16%{content:'Web De|';}
+    17%{content:'Web D|';}
+    17%{content:'Web |';}
+    18%{content:'Web D|';}
+    19%{content:'Web De|';}
+    20%{content:'Web Des|';}
+    21%{content:'Web Desi|';}
+    22%{content:'Web Desig|';}
+    23%{content:'Web Design|';}
+    24%{content:'Web Designe|';}
+    24%{content:'Web Designer|';}
+    25%{content:'Web Designe|';}
+    26%{content:'Web Design|';}
+    27%{content:'Web Desig|';}
+    27%{content:'Web Desi|';}
+    28%{content:'Web Des|';}
+    29%{content:'Web De|';}
+    30%{content:'Web D|';}
+    30%{content:'Web|';}
+    31%{content:'We|';}
+    31%{content:'W|';}
+    32%{content:'F|';}
+    33%{content:'Fr|';}
+    34%{content:'Fro|';}
+    35%{content:'Fron|';}
+    36%{content:'Front|';}
+    37%{content:'Fronte|';}
+    37%{content:'Fronten|';}
+    38%{content:'Frontend |';}
+    38%{content:'Frontend D|';}
+    39%{content:'Frontend De|';}
+    40%{content:'Frontend Dev|';}
+    41%{content:'Frontend Deve|';}
+    42%{content:'Frontend Devel|';}
+    43%{content:'Frontend Develo|';}
+    44%{content:'Frontend Develop|';}
+    45%{content:'Frontend Develope|';}
+    46%{content:'Frontend Developer|';}
+    47%{content:'Frontend Develope|';}
+    48%{content:'Frontend Develop|';}
+    49%{content:'Frontend Develo|';}
+    50%{content:'Frontend Devel|';}
+    50%{content:'Frontend Deve|';}
+    51%{content:'Frontend Dev|';}
+    52%{content:'Frontend De|';}
+    53%{content:'Frontend D|';}
+    53%{content:'Frontend|';}
+    54%{content:'Fronten|';}
+    54%{content:'Fronte|';}
+    55%{content:'Front|';}
+    56%{content:'Fron|';}
+    57%{content:'Fro|';}
+    58%{content:'Fr|';}
+    59%{content:'F|';}
+    59%{content:'|';}
+    60%{content:'G|';}
+    61%{content:'Gr|';}
+    62%{content:'Gra|';}
+    63%{content:'Grap|';}
+    64%{content:'Graph|';}
+    65%{content:'Graphi|';}
+    65%{content:'Graphic|';}
+    66%{content:'Graphic D|';}
+    67%{content:'Graphic De|';}
+    68%{content:'Graphic Des|';}
+    69%{content:'Graphic Desi|';}
+    70%{content:'Graphic Desig|';}
+    71%{content:'Graphic Design|';}
+    72%{content:'Graphic Designe|';}
+    73%{content:'Graphic Designer|';}
+    74%{content:'Graphic Designe|';}
+    75%{content:'Graphic Design|';}
+    76%{content:'Graphic Desig|';}
+    77%{content:'Graphic Desi|';}
+    77%{content:'Graphic Des|';}
+    78%{content:'Graphic De|';}
+    79%{content:'Graphic D|';}
+    79%{content:'Graphic|';}
+    80%{content:'Graphi|';}
+    81%{content:'Graph|';}
+    81%{content:'Grap|';}
+    82%{content:'Gra|';}
+    83%{content:'Gr|';}
+    83%{content:'G|';}
+    84%{content:'C|';}
+    85%{content:'CE|';}
+    86%{content:'CEO|';}
+    86%{content:'CEO D|';}
+    87%{content:'CEO De|';}
+    87%{content:'CEO Dev|';}
+    88%{content:'CEO DevF|';}
+    88%{content:'CEO DevFo|';}
+    89%{content:'CEO DevFol|';}
+    90%{content:'CEO DevFoli|';}
+    91%{content:'CEO DevFolio|';}
+    92%{content:'CEO DevFoli|';}
+    93%{content:'CEO DevFol|';}
+    94%{content:'CEO DevFo';}
+    94%{content:'CEO DevF|';}
+    95%{content:'CEO Dev|';}
+    96%{content:'CEO De|';}
+    97%{content:'CEO D|';}
+    98%{content:'CEO|';}
+    99%{content:'CE|';}
+    99%{content:'C|';}
+    100%{content:'|';} 
+}
